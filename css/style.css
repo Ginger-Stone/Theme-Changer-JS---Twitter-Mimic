@@ -1,0 +1,76 @@
+.container-1{
+    margin: 3% 27% 20px 26.5%;
+    border: 2px solid black;
+    border-radius: 60px;
+    /* position: fixed; */
+}
+#top, header, .prof-pic, header button, #profile, .tabs{
+    position: relative;
+}
+#top{
+    height: 65px;
+    /* width: 100%; */
+    top: 0;
+    z-index: 100;
+    padding-left: 30px;
+    /* padding:20px; */
+    background-color: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+h1.top{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 5px;
+}
+small.top{
+    display: block;
+    margin-left: 50px;
+}
+header{
+    /* top: -50px; */
+    z-index: 1;
+}
+.header-img{
+    width: 100%;  
+}
+.prof-pic{
+    top: -80px;
+    width: 20%;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+header button{
+    top: -98px;
+    left: 20px;
+    margin-left: 300px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 60px;
+    padding: 10px;
+}
+#profile{
+    top: -135px;
+    padding: 30px;
+}
+#profile h5{
+    display: inline;
+}
+.tabs{
+    top: -180px;
+    padding: 30px;
+}
+.tabs h4{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.tabs h4:nth-child(2){
+    width: 190px;
+}
